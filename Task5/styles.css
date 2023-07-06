@@ -1,0 +1,103 @@
+body{
+font-family: sans-serif;
+background: rgb(20,18,20);
+background: linear-gradient(180deg, rgba(20,18,20,1) 0%, rgba(59,56,57,1) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+overflow: hidden;
+
+}
+.main-content{
+background: rgb(47,45,47);
+background: linear-gradient(180deg, rgba(47,45,47,1) 0%, rgba(76,74,75,1) 100%);
+position: absolute;
+height: 85vh;
+width: 80vw;
+top: 6vh;
+left: 10vw;
+border-radius: 28px;
+
+}
+.nav-bar{
+    width: 80%;
+    height: fit-content;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10%;
+    align-items: center;
+    
+}
+.options{
+    display: flex;
+    gap: 2vw;
+    font-size: 12px;
+    
+}
+.nike{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button{
+    cursor: pointer;
+}
+.shoes-ad{
+    display: flex;
+    height: 80%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+    
+}
+.shoes-pic{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 60px;
+    z-index: 1;
+    
+}
+.shoes{
+    width:100%;
+}
+
+.shoes-description{
+    color: white;
+    display: flex; 
+    margin-left: 9.5%;
+    
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 18px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.desc{
+    height: 100%;
+    width: 35vw;
+    
+}
+.circle{
+        background: rgba(234,217,191, 0.5);
+        width: 850px;
+        height: 850px;
+        position: absolute;
+        clip-path: circle(50%);
+        top: 80px;
+        left: 800px;
+
+}
+
+        
